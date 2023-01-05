@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>MANUAL </title>
+   <link rel="icon" type="image/x-icon" href="images/">
+
+   <style>
+    table, th, td {
+      border: 1px solid white;
+      border-collapse: collapse;
+    }
+    th, td {
+      background-color: #c0aa1a;
+    }
+    </style><style>
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #d5322a59;
+}
+#myHeader {
+  background-color: rgba(255, 43, 28, 0.548);
+  color: black;
+  padding: 19px;
+  text-align: center;
+  
+} 
+</style>
+   <link rel="stylesheet" href="Add-files/schedule.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" charset="UTF-8"></script>
+</head>
+<body>
+   <div class="menu-btn">
+       <i class="fas fa-bars"></i>
+   </div>
+   <h2 id="myHeader">MANUAL</h1>
+
+
+  
+
+<img src="MANL/MANL ON STAGE_page-0001.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0002.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0003.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0004.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0005.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0006.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0007.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0008.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0009.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0010.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0011.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0012.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0013.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0014.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0015.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0016.jpg" width="100%" height="400%">
+<img src="MANL/MANL ON STAGE_page-0017.jpg" width="100%" height="400%">
+
+
+
+
+
+
+<P id="#myHeader"></P>
+
+   <div class="side-bar">
+       <div class="close-btn">
+           <i class="fas fa-times"></i>
+       </div>
+
+ 
+       <div class="menu">
+           <div class="item"><a href="index.html"><i class="fas fa-desktop"></i>HOME</a></div>
+           <div class="item"><a href="MANL.html"><i class='fa fa-book'></i></i>MANUAL</a></div>
+
+             <div class="item"><a href="schedule.html"><i class="fa-solid fa-clock"></i>SCHEDULE</a></div>
+
+             <div class="item">
+               <a class="sub-btn"><i class="fa fa-edit"></i>RESULT<i class="fas fa-angle-right dropdown"></i></a> 
+               <div class="sub-menu">
+                   <a href="result-junior.html" class="sub-item">JUNIOR</a>
+                   <a href="result-senior.html" class="sub-item">SENIOR</a>
+                   <a href="result-general.html" class="sub-item">GENERAL</a>
+                   <a href="result-total.html" class="sub-item">TOTAL</a>
+
+                </div>
+            </div>
+
+
+           <div class="item"><a href="graph-total.html"><i class="fa-solid fa-chart-pie"></i>TOTAL GRAPH</a></div>
+
+             <div class="item">
+                <a class="sub-btn"><i class="fa fa-image"></i>IMAGES<i class="fas fa-angle-right dropdown "></i></a>
+                <div class="sub-menu">
+                    <a href="images-fest.html" class="sub-item">FEST</a>
+                    <a href="images-on-stage.html" class="sub-item">ON-STAGE</a>
+                    <a href="images-off-stage.html" class="sub-item">OFF-STAGE</a>
+                </div>
+            </div>
+ 
+ 
+ 
+ 
+            <div class="item"><a href="live.html"><i class="fas fa-video"></i>VIDEOS & LIVE</a></div>
+            <div class="item"><a href="form-sumtnow.html"><i class="fa-solid fa-comment"></i>FEED BACK</a></div>
+
+        </div>
+
+   </div>
+
+ 
+
+ 
+
+
+
+
+
+       <script type="text/javascript">
+           $(document).ready(function(){
+               //jquery for toggle sub menus
+               $('.sub-btn').click(function(){
+                   $(this).next('.sub-menu').slideToggle();
+                   $(this).find('.dropdown').toggleClass('rotate')
+                    
+               })
+               //jquery for expand and collapse the sidebar
+               $('.menu-btn').click(function(){
+                   $('.side-bar').addClass('active');
+                   $('menu-btn').css("visibility","hidden");
+               })
+               $('.close-btn').click(function(){
+                   $('.side-bar').removeClass('active');
+                   $('menu-btn').css("visibility","visible");
+               })
+           })
+       </script>
+    
+</body>
+</html>
+
+
+
+ 
