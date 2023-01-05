@@ -4,11 +4,11 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Fest off stage images</title>
+   <title>Fest stage images</title>
    <link rel="icon" src="logo.jpg" type="image/x-icon">
 
 
-   <link rel="stylesheet" href="Add-files/image-on-stagwe-fest.css">
+   <link rel="stylesheet" href="Add-files/image-off-stage.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" charset="UTF-8"></script>
    <style>
@@ -109,7 +109,7 @@
       opacity: 1;
     }
     #myHeader {
-  background-color: #66f8c7c8;
+  background-color: #394fb1ac;
   color: black;
   padding: 19px;
   text-align: center;
@@ -123,11 +123,71 @@
        <i class="fas fa-bars"></i>
    </div>
 
-   <h2 id="myHeader">STAGE IMAGES</h1>
+   <h2 id="myHeader"> STAGE IMAGES</h1>
+
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="ON-STAGE-IMAGES/1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="ON-STAGE-IMAGES/2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="ON-STAGE-IMAGES/3.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="ON-STAGE-IMAGES/4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="ON-STAGE-IMAGES/5.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="ON-STAGE-IMAGES/6.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="ON-STAGE-IMAGES/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="TRANSILATION AEB-ENG (JNR)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ON-STAGE-IMAGES/2.jpg" style="width:100%" onclick="currentSlide(2)" alt="ESSAY MALAYALAM (SNR)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ON-STAGE-IMAGES/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="MINI STORY URUDU (JNR)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ON-STAGE-IMAGES/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="POEM MALAYALAM (JNR)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ON-STAGE-IMAGES/5.jpg" style="width:100%" onclick="currentSlide(5)" alt="POEM ENGLISH (SNR)">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="ON-STAGE-IMAGES/6.jpg" style="width:100%" onclick="currentSlide(6)" alt="REPORT ENGLISH (JNR)">
+    </div>
 
 
 
-
+  </div>
+</div>
 
 <script>
 let slideIndex = 1;
@@ -169,8 +229,6 @@ function showSlides(n) {
        </div>
        <div class="menu">
            <div class="item"><a href="index.html"><i class="fas fa-desktop"></i>HOME</a></div>
-                     <div class="item"><a href="MANL.html"><i class='fa fa-book'></i></i>MANUAL</a></div>
-
              <div class="item"><a href="schedule.html"><i class="fa-solid fa-clock"></i>SCHEDULE</a></div>
 
              <div class="item">
@@ -184,6 +242,14 @@ function showSlides(n) {
                 </div>
             </div>
 
+           <div class="item">
+               <a class="sub-btn"><i class="fa-solid fa-chart-simple"></i>GRAPH<i class="fas fa-angle-right dropdown "></i></a>
+               <div class="sub-menu">
+                   <a href="graph-junior.html" class="sub-item">JUNIOR</a>
+                   <a href="graph-senior.html" class="sub-item">SENIOR</a>
+                   <a href="graph-general.html" class="sub-item">GENERAL</a>
+               </div>
+           </div>
 
            <div class="item"><a href="graph-total.html"><i class="fa-solid fa-chart-pie"></i>TOTAL POINT</a></div>
 
@@ -195,15 +261,6 @@ function showSlides(n) {
                     <a href="images-off-stage.html" class="sub-item">OFF-STAGE</a>
                 </div>
             </div>
-            <div class="item">
-                <a class="sub-btn"><i class="fa fa-list-alt" aria-hidden="true"></i>PROGRAMES<i class="fas fa-angle-right dropdown "></i></a>
-                <div class="sub-menu">
-                    <a href="PRG-DOCUMENTARY.html" class="sub-item">DOCUMENTARY</a>
-                    <a href="PRG-BURDHA.html" class="sub-item">BURDHA</a>
-                    <a href="PRG-DEGITALDISIGNING.html" class="sub-item">DIGITAL DESIGNING</a>
-                    <a href="PRG-E-NEWSPAPER.html" class="sub-item">E-NEWSPAPER</a>
-                    <a href="PRG-VLOGUNBOXING.html" class="sub-item">VLOG UNBOXING</a>
-                </div>
             <div class="item"><a href="live.html"><i class="fas fa-video"></i>VIDEOS & LIVE</a></div>
             <div class="item"><a href="form-sumtnow.html"><i class="fa-solid fa-comment"></i>FEED BACK</a></div>
 
@@ -213,9 +270,6 @@ function showSlides(n) {
    </div>
 
   
-
-
-
 
 
 
